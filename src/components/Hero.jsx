@@ -2,9 +2,9 @@ import Carousel from "./Carousel.jsx";
 
 const Hero = () => {
   const images = [
-    "/public/Images/1.jpg",
-    "/public/Images/2.jpg",
-    "/public/Images/3.jpg",
+    "https://i.ibb.co/YpXFTGM/1.jpg",
+    "https://i.ibb.co/wKSp81C/2.jpg",
+    "https://i.ibb.co/wQX1vpD/3.jpg",
   ];
   return (
     <div className="relative w-full h-screen overflow-hidden">

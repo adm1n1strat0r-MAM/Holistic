@@ -9,7 +9,7 @@ const Curriculum = () => {
             <div className="flex justify-center md:justify-start">
               <img
                 className="md:h-auto object-cover h-[400px] w-[300px] rounded-lg shadow-md"
-                src="/public/Images/curriculum.jpg"
+                src="https://i.ibb.co/xXdvWdB/curriculum.jpg"
                 alt="Curriculum Image"
               />
             </div>
@@ -51,7 +51,7 @@ const Curriculum = () => {
           <div className="flex justify-center">
             <img
               className="h-80 w-80 object-cover rounded-full"
-              src="/public/Images/project.png"
+              src="https://i.ibb.co/b3cddx5/project.png"
               alt="Activity 1 Image"
             />
           </div>
@@ -69,7 +69,7 @@ const Curriculum = () => {
           <div className="flex justify-center">
             <img
               className="h-80 w-80 object-cover rounded-full"
-              src="/public/Images/stem.png"
+              src="https://i.ibb.co/DQTV7gp/stem.png"
               alt="Activity 2 Image"
             />
           </div>
@@ -87,7 +87,7 @@ const Curriculum = () => {
           <div className="flex justify-center">
             <img
               className="h-80 w-80 object-cover rounded-full"
-              src="/public/Images/art.png"
+              src="https://i.ibb.co/xSXLYYy/art.png"
               alt="Activity 3 Image"
             />
           </div>

@@ -17,7 +17,7 @@ const Header = () => {
     <nav id='home'>
       <div className="container mx-auto px-4 py-6 flex items-center justify-between">
         <Link to="home" smooth={true} spy={true} className="text-red text-3xl font-bold cursor-pointer">
-          <img className='w-[200px]' src='/public/Images/logo 2.png'/>
+          <img className='w-[200px]' src='https://i.ibb.co/HHyF334/logo-2.png'/>
         </Link>
         <div className="hidden md:flex space-x-6 ">
           <ul className='list-style-type: none flex gap-8'>
