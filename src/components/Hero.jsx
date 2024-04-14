@@ -23,7 +23,7 @@ const Hero = () => {
             citizens.
           </p>
           <button className="bg-red hover:text-black text-white font-bold py-3 px-6 rounded-full shadow-md transition duration-300 ease-in-out">
-            Learn More
+            Admission Now
           </button>
         </div>
       </div>

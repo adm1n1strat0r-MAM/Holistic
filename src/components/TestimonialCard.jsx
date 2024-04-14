@@ -1,10 +1,11 @@
 import React from "react";
 
-const TestimonialCard = ({ author, text }) => {
+const TestimonialCard = ({ image, author, text }) => {
   return (
     <div className="bg-white rounded-lg p-4 shadow-md">
-      <p className="text-gray-600 mb-2">{text}</p>
-      <p className="text-gray-800 font-bold">{author}</p>
+      <img src={image} alt="testimonial" className="w-[150px] h-[200px] rounded-full mx-auto mb-4" />
+      <p className="text-gray-600 mb-2 text-center">{text}</p>
+      <p className="text-red font-bold text-center">{author}</p>
     </div>
   );
 };
