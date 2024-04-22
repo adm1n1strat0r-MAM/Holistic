@@ -4,8 +4,8 @@ import Hero from "./components/Hero";
 import AboutUs from './components/Aboutus';
 import Curriculum from './components/Curriculum';
 import WhyChooseUs from './components/WhyChooseUs';
-// import ContactUs from './components/ContactUs';
-// import Footer from './components/Footer';
+import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
       <AboutUs />
       <Curriculum />
       <WhyChooseUs />
-      {/*<ContactUs />
-      <Footer /> */}
+      <ContactUs />
+      <Footer />
     
     </>
   );

@@ -1,66 +1,6 @@
-import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import TestimonialCard from "./TestimonialCard"; // Assuming you have a TestimonialCard component
+import React from "react"; // Assuming you have a TestimonialCard component
 
 const WhyChooseUs = () => {
-  var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
-  const data = [
-    {
-      image: "../../public/Images/teach1.png",
-      author: "John Doe",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu nulla vel eros sollicitudin tincidunt.",
-    },
-    {
-      image: "Images/teach2.png",
-      author: "Jane Smith",
-      text: "Vestibulum auctor mattis mauris, ac sollicitudin magna. Nullam interdum, metus eu vehicula consequat.",
-    },
-    {
-      image: "Images/teach3.png",
-      author: "David Johnson",
-      text: "Fusce eget urna id est varius ultrices in et sapien. Sed id metus sit amet nunc luctus condimentum.",
-    },
-    {
-      image: "Images/teach4.png",
-      author: "David Johnson",
-      text: "Fusce eget urna id est varius ultrices in et sapien. Sed id metus sit amet nunc luctus condimentum.",
-    },
-  ];
   return (
     <div id="WhyChooseUs" className="bg-gray-100 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -116,29 +56,23 @@ const WhyChooseUs = () => {
             Admission Now
           </button>
         </div>
-        <div className="mt-12">
-          <h2 className="text-3xl font-extrabold text-red text-center mb-8">
-            Our Team
-          </h2>
-          <div className=" m-auto">
+        <div className="">
+          <div className="m-auto">
             <div className="mt-10">
-              <Slider {...settings}>
-                {data.map((d) => (
-                  <div key={d} className="h-[450ox] text-white rounded-xl">
-                    <div className="h-56 rounded-t-xl bg-red flex justify-center items-center">
-                      <img
-                        src={d.image}
-                        alt=""
-                        className="bg-white rounded-full h-44 w-44"
-                      />
-                    </div>
-                    <div className="border rounded-b-xl h-[250px] text-red flex flex-col justify-center items-center gap-4 p-4">
-                      <p className="text-xl font-semibold">{d.author}</p>
-                      <p className="text-black text-center">{d.text}</p>
-                    </div>
-                  </div>
-                ))}
-              </Slider>
+              <div className="m-auto flex flex-col items-center bg-red border border-red rounded-lg shadow md:flex-row md:max-w-xl ">
+                <div className="bg-white object-cover w-full rounded-t-lg md:h-auto md:w-55 md:rounded-none md:rounded-s-lg">
+                  <img className="m-auto h-[250px]" src="Images/director.jpeg" alt="" />
+                </div>
+                <div className="flex flex-col justify-between p-4 leading-normal">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
+                  Director: Yaiza González Vila
+                  </h5>
+                  <p className="mb-3 font-normal text-white">
+                    Here are the biggest enterprise technology acquisitions of
+                    2021 so far, in reverse chronological order.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
