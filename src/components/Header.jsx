@@ -22,7 +22,7 @@ const Header = () => {
           spy={true}
           className="text-red text-3xl font-bold cursor-pointer"
         >
-          <img className="w-[200px]" src="https://i.ibb.co/ZJnWg8W/logo.jpg" />
+          <img className="w-[200px]" src="Images/logo.jpeg" />
         </Link>
         <div className="hidden md:flex space-x-6 ">
           <ul className="list-style-type: none flex gap-8">

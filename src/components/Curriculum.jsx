@@ -9,7 +9,7 @@ const Curriculum = () => {
             <div className="flex justify-center md:justify-start">
               <img
                 className="md:h-auto object-cover h-[400px] w-[300px] rounded-lg shadow-md"
-                src="https://i.ibb.co/xXdvWdB/curriculum.jpg"
+                src="Images/curriculum.jpg"
                 alt="Curriculum Image"
               />
             </div>
@@ -51,13 +51,13 @@ const Curriculum = () => {
           <div className="flex justify-center">
             <img
               className="h-80 w-80 object-cover rounded-full"
-              src="https://i.ibb.co/b3cddx5/project.png"
+              src="Images/project.png"
               alt="Activity 1 Image"
             />
           </div>
           <div className="mt-4 text-center md:text-left">
-            <h4 className="font-bold text-xl mx-4">Project-Based Learning</h4>
-            <p className="mx-4 text-lg text-black text-justify">
+            <h4 className="font-bold text-xl mx-4 text-center">Project-Based Learning</h4>
+            <p className="mx-4 text-lg text-black text-center">
               Our project-based learning approach encourages students to explore
               real-world problems, collaborate with peers, and apply critical
               thinking skills to find innovative solutions.
@@ -69,13 +69,13 @@ const Curriculum = () => {
           <div className="flex justify-center">
             <img
               className="h-80 w-80 object-cover rounded-full"
-              src="https://i.ibb.co/DQTV7gp/stem.png"
+              src="Images/stem.png"
               alt="Activity 2 Image"
             />
           </div>
           <div className="mt-4 text-center md:text-left">
-            <h4 className="font-bold text-xl mx-4">STEM Education</h4>
-            <p className="mx-4 text-lg text-black text-justify">
+            <h4 className="font-bold text-xl mx-4 text-center">STEM Education</h4>
+            <p className="mx-4 text-lg text-black text-center">
               Our STEM education program integrates science, technology,
               engineering, and mathematics to foster problem-solving skills and
               prepare students for careers in high-demand fields.
@@ -87,13 +87,13 @@ const Curriculum = () => {
           <div className="flex justify-center">
             <img
               className="h-80 w-80 object-cover rounded-full"
-              src="https://i.ibb.co/xSXLYYy/art.png"
+              src="Images/art.png"
               alt="Activity 3 Image"
             />
           </div>
           <div className="mt-4 text-center md:text-left">
-            <h4 className="font-bold text-xl mx-4">Arts Integration</h4>
-            <p className="mx-4 text-lg text-black text-justify">
+            <h4 className="font-bold text-xl mx-4 text-center">Arts Integration</h4>
+            <p className="mx-4 text-lg text-black text-center">
               Through arts integration, students explore their creativity,
               express themselves, and develop essential skills such as
               communication and collaboration, enhancing their overall learning

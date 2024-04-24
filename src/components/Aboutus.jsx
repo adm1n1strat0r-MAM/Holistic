@@ -49,7 +49,7 @@ const AboutUs = () => {
           <div className="flex justify-center md:justify-end">
             <img
               className="md:h-auto object-cover h-100 w-97 ml-5"
-              src="https://i.ibb.co/RbyP9ry/about.jpg"
+              src="Images/about.jpg"
               alt="School Image"
             />
           </div>
