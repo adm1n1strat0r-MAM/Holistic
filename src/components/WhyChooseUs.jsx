@@ -65,7 +65,7 @@ const WhyChooseUs = () => {
                 </div>
                 <div className="flex bg-red flex-col rounded-lg justify-between p-4 leading-normal">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
-                  Yaiza González Vila
+                  Director: Yaiza González Vila
                   </h5>
                 </div>
               </div>
@@ -79,7 +79,7 @@ const WhyChooseUs = () => {
                 </div>
                 <div className="flex bg-red flex-col rounded-lg justify-between p-4 leading-normal">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
-                  Eliza awan
+                  Director: Eliza awan
                   </h5>
                 </div>
               </div>
