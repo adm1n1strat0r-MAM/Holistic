@@ -65,12 +65,8 @@ const WhyChooseUs = () => {
                 </div>
                 <div className="flex bg-red flex-col rounded-lg justify-between p-4 leading-normal">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
-                  Director: Yaiza González Vila
+                  Yaiza González Vila
                   </h5>
-                  <p className="mb-3 font-normal text-white">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
-                  </p>
                 </div>
               </div>
             </div>
@@ -83,12 +79,8 @@ const WhyChooseUs = () => {
                 </div>
                 <div className="flex bg-red flex-col rounded-lg justify-between p-4 leading-normal">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
-                  Director: Eliza awan
+                  Eliza awan
                   </h5>
-                  <p className="mb-3 font-normal text-white">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
-                  </p>
                 </div>
               </div>
             </div>
