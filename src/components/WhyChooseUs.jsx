@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
               Empowering future leaders
             </h3>
             <p className="text-gray-600 text-center">
-              Your school prepares students to be engaged members of society who
+              Our school prepares students to be engaged members of society who
               can make a positive impact on the world.
             </p>
           </div>
@@ -32,7 +32,7 @@ const WhyChooseUs = () => {
               Focus on well-rounded individuals
             </h3>
             <p className="text-gray-600 text-center">
-              Your school goes beyond just academics, aiming to develop the
+              Our school goes beyond just academics, aiming to develop the
               whole student – intellectually, socially, and emotionally.
             </p>
           </div>
@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
               Supportive and inclusive environment
             </h3>
             <p className="text-gray-600 text-center">
-              You create a safe space where students can thrive and learn
+              We create a safe space where students can thrive and learn
               important life skills like empathy and resilience.
             </p>
           </div>
