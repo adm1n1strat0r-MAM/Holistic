@@ -22,36 +22,41 @@ const Header = () => {
           spy={true}
           className="text-red text-3xl font-bold cursor-pointer"
         >
-          <img className="w-[200px]" src="Images/logo.jpeg" />
+          <img className="w-[200px]" src="Images/logo.jpeg" alt="Logo" />
         </Link>
-        <div className="hidden md:flex space-x-6 ">
-          <ul className="list-style-type: none flex gap-8">
+        <div className="hidden md:flex space-x-6">
+          <ul className="list-none flex gap-8">
+            <li className="relative group">
             <NavLink to="home" onClick={closeMobileMenu}>
-              <li className="hover:text-black text-red transition border-b-2 border-red hover:border-black cursor-pointer ">
+              <button className="hover:text-black text-red transition border-b-2 border-red hover:border-black cursor-pointer">
                 Home
-              </li>
-            </NavLink>
-            <NavLink to="AboutUs" onClick={closeMobileMenu}>
-              <li className="hover:text-black text-red transition border-b-2 border-red hover:border-black cursor-pointer ">
-                About Us
-              </li>
-            </NavLink>
-            <NavLink to="Curriculum" onClick={closeMobileMenu}>
-              <li className="hover:text-black text-red transition border-b-2 border-red hover:border-black cursor-pointer ">
-                Curriculum
-              </li>
-            </NavLink>
-            <NavLink to="WhyChooseUs" onClick={closeMobileMenu}>
-              <li className="hover:text-black text-red transition border-b-2 border-red hover:border-black cursor-pointer ">
-                Why Choose Us
-              </li>
-            </NavLink>
+              </button>
+              </NavLink>
+              <ul className="absolute hidden group-hover:flex flex-col bg-red text-white z-10 w-[150px] border rounded-[10px] shadow-lg mt-2">
+                <NavLink to="AboutUs" onClick={closeMobileMenu}>
+                  <li className="hover:bg-red hover:text-white hover:rounded-[10px] cursor-pointer p-2">
+                    About Us
+                  </li>
+                </NavLink>
+                <hr />
+                <NavLink to="Curriculum" onClick={closeMobileMenu}>
+                  <li className="hover:bg-red hover:text-white cursor-pointer p-2">
+                    Curriculum
+                  </li>
+                </NavLink>
+                <hr />
+                <NavLink to="WhyChooseUs" onClick={closeMobileMenu}>
+                  <li className="hover:bg-red hover:text-white hover:rounded-[10px] cursor-pointer p-2">
+                    Why Choose Us
+                  </li>
+                </NavLink>
+              </ul>
+            </li>
             <NavLink to="ContactUs" onClick={closeMobileMenu}>
               <li className="bg-red hover:text-black text-white font-bold py-1 px-2 rounded-full shadow-md transition duration-300 ease-in-out">
                 Contact Us
               </li>
             </NavLink>
-            {/* <NavLink to="Footer" onClick={closeMobileMenu}><li className='hover:text-black text-red transition border-b-2 border-red hover:border-black cursor-pointer '>Footer </li></NavLink> */}
           </ul>
         </div>
         <div className="md:hidden">
@@ -79,7 +84,6 @@ const Header = () => {
               <MobileNavLink to="ContactUs" onClick={closeMobileMenu}>
                 Contact Us
               </MobileNavLink>
-              {/* <MobileNavLink to="Footer" onClick={closeMobileMenu}>Footer</MobileNavLink> */}
             </ul>
           </div>
         </div>

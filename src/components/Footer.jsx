@@ -41,11 +41,11 @@ const Footer = () => {
           {/* <!-- TW Elements section --> */}
           <div className="">
             <img className="mx-auto" src="Images/logo.jpeg"/>
-            <p className="w-[300px] mx-auto text-center">
+            {/* <p className="w-[300px] mx-auto text-center">
               Here you can use rows and columns to organize your footer
               content. Lorem ipsum dolor sit amet, consectetur adipisicing
               elit.
-            </p>
+            </p> */}
           </div>
           
           {/* <!-- Useful links section --> */}

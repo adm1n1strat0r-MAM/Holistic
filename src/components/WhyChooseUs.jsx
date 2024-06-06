@@ -1,6 +1,17 @@
-import React from "react"; // Assuming you have a TestimonialCard component
+import { useState } from "react";
+import Modal from "./Modal.jsx";
 
 const WhyChooseUs = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div id="WhyChooseUs" className="bg-gray-100 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -32,10 +43,12 @@ const WhyChooseUs = () => {
               Focus on well-rounded individuals
             </h3>
             <p className="text-gray-600 text-center">
-              Our school goes beyond just academics, aiming to develop the
-              whole student – intellectually, socially, and emotionally.
+              Our school goes beyond just academics, aiming to develop the whole
+              student – intellectually, socially, and emotionally.
             </p>
           </div>
+      <Modal isOpen={isOpen} closeModal={closeModal} />
+
           <div className="flex flex-col items-center">
             <img
               src="Images/supportive.jpeg"
@@ -52,7 +65,10 @@ const WhyChooseUs = () => {
           </div>
         </div>
         <div className="text-center mt-12">
-          <button className="bg-red hover:text-black text-white font-bold py-3 px-6 rounded-full shadow-md transition duration-300 ease-in-out">
+          <button
+            className="bg-red hover:text-black text-white font-bold py-3 px-6 rounded-full shadow-md transition duration-300 ease-in-out"
+            onClick={openModal}
+          >
             Admission Now
           </button>
         </div>
@@ -61,11 +77,15 @@ const WhyChooseUs = () => {
             <div className="mt-10">
               <div className="m-auto flex flex-col items-center rounded-lg shadow md:flex-row md:max-w-xl ">
                 <div className="bg-white object-cover w-full rounded-lg  md:h-auto md:w-55 md:rounded-none md:rounded-s-lg">
-                  <img className="m-auto h-[250px]" src="Images/director.jpeg" alt="" />
+                  <img
+                    className="m-auto h-[250px]"
+                    src="Images/director.jpeg"
+                    alt=""
+                  />
                 </div>
                 <div className="flex bg-red flex-col rounded-lg justify-between p-4 leading-normal">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
-                  Director: Yaiza González Vila
+                    Director: Yaiza González Vila
                   </h5>
                 </div>
               </div>
@@ -75,11 +95,15 @@ const WhyChooseUs = () => {
             <div className="mt-10">
               <div className="m-auto flex flex-col items-center rounded-lg shadow md:flex-row md:max-w-xl ">
                 <div className="bg-white object-cover w-full rounded-lg  md:h-auto md:w-55 md:rounded-none md:rounded-s-lg">
-                  <img className="m-auto h-[250px]" src="Images/director2.jpg" alt="" />
+                  <img
+                    className="m-auto h-[250px]"
+                    src="Images/director2.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="flex bg-red flex-col rounded-lg justify-between p-4 leading-normal">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
-                  Director: Eliza awan
+                    Director: Eliza awan
                   </h5>
                 </div>
               </div>
